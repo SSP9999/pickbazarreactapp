@@ -1,0 +1,63 @@
+.nav-header{
+    display: flex;
+    margin:2rem 1rem;
+    .imageDiv{
+        width: 15%;
+        img{
+            width: 100%;
+        }
+       }
+    .selectDiv{
+        .groceries{
+           
+                font-size: 1.2rem;
+                // margin-top: .8rem;
+                padding: 0.5rem;
+                margin-left: 2rem;
+                // border: 1px transparent gray;
+                color: #009F7F; 
+                border: none;   
+                box-shadow: .5rem .5rem .5rem  silver;
+                
+                option{
+                    color: grey;
+
+                }
+        }
+    }
+    .navlistDiv{
+        .nav-list{
+            list-style-type: none;
+            display: flex;
+            margin-left: 18rem;
+            color: grey;
+            font-weight: 600;
+           li{
+            margin: 0rem 1rem;
+            font-size: 1rem;
+            transition: 1s;
+           }
+           li:hover{
+               color: #009F7F;
+               font-size: 1.3rem;
+           }
+
+        }
+    }
+    .buttonsDiv{
+        margin-left: 3rem;
+        .nav-button{
+            color: #fff;
+            font-size: 1rem;
+            background-color: #009F7F;
+            padding: 1rem;
+            border-radius: 1rem;
+            border: none;
+            margin-right: 0.5rem;
+        }
+    }
+
+   
+    
+  
+}
